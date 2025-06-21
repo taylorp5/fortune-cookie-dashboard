@@ -1,60 +1,69 @@
-# fortune-cookie-dashboard
+# 🥠 Fortune Cookie Dashboard
+
 > **Click the cookie. Reveal your fortune. Analyze the trends.**
 
-An interactive Excel dashboard that blends whimsy with data — built around a personal habit of collecting fortune cookie messages. This project uses VBA, Power Query, and classic Excel visuals to bring hundreds of tiny predictions to life.
+An interactive Excel dashboard that brings hundreds of fortune cookie messages to life using Power Query, VBA macros, and creative design.
 
 ---
 
 ## 💡 Inspiration
 
-This project was born out of a habit I didn’t realize I had — collecting fortune cookie messages. When I moved out of my college apartment recently, I found an embarrassing number of them taped to my walls, tucked in drawers, and even scattered around my desk. Most were my own, but I also started collecting my friends’ fortunes anytime we ate together.
+This project was born out of a habit I didn’t realize I had — collecting fortune cookie messages. When I moved out of my college apartment recently, I found an embarrassing number of them taped to my walls, tucked in drawers, and even scattered around my desk. Most were mine, but I had also started collecting my friends’ fortunes anytime we ate together.
 
-As I looked at the pile, I thought: “What if I actually analyzed these?” That question turned into this interactive Excel dashboard — a way to explore the themes, and trends hidden inside hundreds of tiny paper predictions.
+As I looked at the pile, I thought: *“What if I actually analyzed these?”* That turned into this playful but data-driven dashboard.
 
 ---
 
 ## 🧰 Tools Used
 
 - Microsoft Excel
-- Microsoft Co-Pilot
 - Power Query
-- VBA (macro)
-- Conditional formatting
-- Slicers & Charts
+- VBA (macros)
+- Form controls & shape layering
+- Data visualizations (bar, donut, word cloud)
 
 ---
 
 ## 🧼 Data Cleaning
 
-📸 *Add screenshots showing Power Query / tagging / keyword columns*
+I collected over 500 messages and cleaned them using Power Query. Themes, subthemes, and keywords were manually categorized and tagged for analysis.
+
+![Data Cleaning in Power Query](Fortune_Cookie_DC_PQ.jpg)
 
 ---
 
-## 🧠 VBA Logic
+## 🧠 VBA Interactivity
 
-📸 *Add screenshot of macro code in the VBA editor*  
-📸 *Add Selection Pane screenshot to show how layers were renamed & hidden*
+Using shape layering and the Selection Pane, I created a reveal sequence where clicking a fortune cookie image shows a message and then displays the full dashboard.
 
----
-
-## 📊 Dashboard Preview
-
-📸 *Add screenshots of:*
-
-- Pre-click (just cookie)
-- Fortune reveal
-- Full dashboard with slicers and charts
+![VBA Editor and Shape Setup](Fortune_Cookie_VBA.png)
 
 ---
 
-## 🎥 Short Demo
+## 🗂️ Raw Dataset Snapshot
 
-🎞️ *Add link to Loom or YouTube if you record it*  
-Or embed a `.gif` of the click → fortune → dashboard reveal
+The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Keyword`, `Source`, and `Location`.
+
+![Raw Data Format](Fortune_Cookie_Raw_Data.png)
 
 ---
 
-## 📦 Files
+## 📊 Dashboard Visuals
 
-- `Fortune_Cookie_Dashboard.xlsm` — macro-enabled Excel file
-- `/images/` — screenshots used in this README
+The dashboard features:
+
+- 🥇 Top **Themes** (Donut Chart)
+- 🧠 Top **Subthemes** (Bar Chart)
+- 🧾 **Word Cloud** of Most Common Keywords
+- 📍 **Location Breakdown** by Message Count
+
+---
+
+## 📸 Dashboard Preview
+
+> Screenshot these from Excel and upload to GitHub for embedding.
+
+```md
+![Initial View - Cookie Only](images/before_click.png)
+![Fortune Reveal](images/fortune_shown.png)
+![Full Dashboard View](images/dashboard_view.png)
