@@ -37,7 +37,7 @@ I collected over 500 messages and cleaned them using Power Query. Themes, subthe
 
 Using shape layering and the Selection Pane, I created a reveal sequence where clicking a fortune cookie image shows a message and then displays the full dashboard.
 
-![VBA Editor and Shape Setup](Fortune_Cookie_VBA.png)
+[VBA Editor and Shape Setup](Fortune_Cookie_VBA.png)
 
 ---
 
@@ -45,7 +45,7 @@ Using shape layering and the Selection Pane, I created a reveal sequence where c
 
 The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Keyword`, `Source`, and `Location`.
 
-![Raw Data Format](Fortune_Cookie_Raw_Data.png)
+[Raw Data Format](Fortune_Cookie_Raw_Data.png)
 
 ---
 
