@@ -80,4 +80,4 @@ The dashboard features:
 
 [Full Dashboard View](Fortune_Cookie_Dashboard_SS.png)
 
-[Full Dashboard Demo](Fortune_Cookie_Dashboard_Demo_Video.mp4)
+[Dashboard Demo](Dashboard_Animation.gif)
