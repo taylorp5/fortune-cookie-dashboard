@@ -17,6 +17,7 @@ As I looked at the pile, I thought: *“What if I actually analyzed these?”* T
 ## 🧰 Tools Used
 
 - Microsoft Excel
+- Microsoft Co-Pilot
 - Power Query
 - VBA (macros)
 - Form controls & shape layering
@@ -43,11 +44,20 @@ Using shape layering and the Selection Pane, I created a reveal sequence where c
 
 ## 🗂️ Raw Dataset Snapshot
 
-The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Keyword`, `Source`, and `Location`.
+The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Source`, and `Location`. Keywords were identified using Excel formulas.
 
 [Raw Data Format](Fortune_Cookie_Raw_Data.png)
 
 ---
+
+## 📦 Dataset
+
+The dataset used for this project contains 500 fictional fortune cookie messages along with associated themes, subthemes, source restaurants, and locations. Since no public dataset like this exists, the messages were generated using GitHub Copilot based on real-world formatting patterns and tone.
+
+The goal was to create a realistic, structured sample to showcase data cleaning, categorization, and interactive dashboard design in Excel — not to conduct an academic linguistic study.
+
+➡️ This dataset simulates what you'd get from compiling messages over time from various restaurants and regions.
+
 
 ## 📊 Dashboard Visuals
 
