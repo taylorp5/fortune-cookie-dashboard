@@ -21,13 +21,13 @@ As I looked at the pile, I thought: *“What if I actually analyzed these?”* T
 - Power Query
 - VBA (macros)
 - Form controls & shape layering
-- Data visualizations (bar, donut, word cloud)
+- Data visualizations (bar, pie, word cloud)
 
 ---
 
 ## 🧼 Data Cleaning
 
-I collected over 500 messages and cleaned them using Power Query. Themes, subthemes, and keywords were manually categorized and tagged for analysis.
+I collected over 500 messages and cleaned them using Power Query.
 
 [Data Cleaning Screenshot](Fortune_Cookie_DC_PQ.jpg)
 
@@ -44,7 +44,7 @@ Using shape layering and the Selection Pane, I created a reveal sequence where c
 
 ## 🗂️ Raw Dataset Snapshot
 
-The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Source`, and `Location`. Keywords were identified using Excel formulas.
+The dataset includes fields like `Message`, `Theme`, `Subtheme`, `Source`, and `Location.` Keywords were identified using Excel formulas.
 
 [Raw Data Format](Fortune_Cookie_Raw_Data.png)
 
@@ -72,9 +72,8 @@ The dashboard features:
 
 ## 📸 Dashboard Preview
 
-> Screenshot these from Excel and upload to GitHub for embedding.
+[Initial View - Cookie Only](Fortune_Cookie_Initial_Image.png)
 
-```md
-![Initial View - Cookie Only](images/before_click.png)
-![Fortune Reveal](images/fortune_shown.png)
-![Full Dashboard View](images/dashboard_view.png)
+[Fortune Reveal](Fortune_Cookie_Fortune_Reveal.png)
+
+[Full Dashboard View](Fortune_Cookie_Dashboard_SS.png)
