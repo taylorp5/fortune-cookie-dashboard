@@ -4,6 +4,8 @@
 
 An interactive Excel dashboard that brings hundreds of fortune cookie messages to life using Power Query, VBA macros, and creative design.
 
+[Final Project](Fortune_Cookie_Project_Excel.xlsm)
+
 ---
 
 ## 💡 Inspiration
