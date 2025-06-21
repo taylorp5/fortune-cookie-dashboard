@@ -28,7 +28,7 @@ As I looked at the pile, I thought: *“What if I actually analyzed these?”* T
 
 I collected over 500 messages and cleaned them using Power Query. Themes, subthemes, and keywords were manually categorized and tagged for analysis.
 
-![Data Cleaning in Power Query]![Fortune_Cookie_DC_PQ](https://github.com/user-attachments/assets/c11b46e1-b38a-4b8f-ab39-edd768e30a0a?raw=true)
+[Data Cleaning Screenshot](Fortune_Cookie_DC_PQ.jpg)
 
 
 ---
