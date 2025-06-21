@@ -77,3 +77,5 @@ The dashboard features:
 [Fortune Reveal](Fortune_Cookie_Fortune_Reveal.png)
 
 [Full Dashboard View](Fortune_Cookie_Dashboard_SS.png)
+
+[Full Dashboard Demo](Fortune_Cookie_Dashboard_Demo.mp4)
